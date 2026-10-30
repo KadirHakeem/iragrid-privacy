@@ -34,7 +34,7 @@
 <body>
 <header>
   <h1>IraGrid Privacy Policy</h1>
-  <p>Effective 19 October 2026</p>
+  <p>Effective 30 October 2026 (updated for IraGrid 1.8)</p>
 </header>
 <main>
 
@@ -51,6 +51,8 @@
     <li>When your phone starts charging, we record the time, the charger type and your phone's location, so we can tell whether your area has light.</li>
     <li>Other users only ever see <strong>area-level</strong> results (for example "Lokongoma: Light on, based on 5 phones"), never your location.</li>
     <li>Your exact location is <strong>deleted after 90 days</strong>.</li>
+    <li>To fix problems and improve the app, we also record <strong>which parts of the app are used</strong> and a few <strong>phone settings</strong> that affect counting (for example, whether location is allowed). None of this includes your name, contacts or location.</li>
+    <li>If you tap <strong>Share</strong> under a calculator result, we keep that home setup anonymously. Nothing is shared unless you tap Share.</li>
     <li>You can pause counting or delete your data at any time in the app's <strong>Me</strong> tab.</li>
   </ul>
 </section>
@@ -61,6 +63,9 @@
     <li><strong>An anonymous ID.</strong> The app creates a random account ID so your records can be grouped and deleted. It is not linked to your name, phone number or email.</li>
     <li><strong>Charging events.</strong> When your phone is plugged in: the time, the charger type (wall socket, USB or wireless), your phone's location (latitude, longitude and accuracy) at that moment, and the area it falls in.</li>
     <li><strong>Your answers</strong> to the optional question "Grid, inverter or generator?" (or "Power bank, laptop or car adapter?").</li>
+    <li><strong>App usage statistics.</strong> Which screens you open (for example Home, Me or Tools), which calculators you use, when you start an Electricity Academy video, which welcome pages you reach, and the choices you make on permission pop-ups (allowed or not). Each comes with the time and the app version.</li>
+    <li><strong>Health check.</strong> The settings that decide whether IraGrid can count your charges: whether location is allowed (precise, approximate or not at all), whether your phone's location is switched on, whether notifications are on, whether IraGrid's charger watcher is running, whether battery saving is relaxed for IraGrid, and whether <em>Help my area</em> is on. Also the app version, Android version and your phone's <strong>maker</strong> (for example TECNO or Samsung), but never the model. This is sent when you open the app (at most once an hour) and once a day.</li>
+    <li><strong>Home setups you choose to share.</strong> Only if you tap <em>Share</em> under a calculator result: what you entered in that calculator (for example generator size and fuel, inverter or portable battery size, your appliances, how many hours you run them, and how you charge). We store it with the <strong>area</strong> of your most recent charge, worked out on our server. The setup itself never includes your location.</li>
   </ul>
   <p><strong>Location when you open the Home screen</strong> is used only to find the areas near you. It is sent to our server to look up nearby areas and is <strong>not stored</strong>.</p>
   <p>We do <strong>not</strong> collect your contacts, photos, messages, browsing, or a continuous record of where you go. Location is only read when your phone starts charging or when you open the Home screen.</p>
@@ -73,8 +78,11 @@
     <li>To improve accuracy, for example telling grid power apart from generators or solar.</li>
     <li>To show you your own contribution in the Me tab.</li>
     <li>To produce <strong>area-level statistics</strong> about electricity supply (for example, hours of light per area per day).</li>
+    <li>To find out why some phones stop counting charges (for example, location turned off or the phone closing the app), and fix it.</li>
+    <li>To see which parts of the app are useful, so we know what to improve.</li>
+    <li>From shared home setups, to understand how much power Nigerian homes use and what it would take to give them light 24 hours a day. Results are only ever reported as totals, never as one person's setup.</li>
   </ul>
-  <p>We use your data because you agree to it (consent), which you can withdraw at any time as described below.</p>
+  <p>We use your charging data and shared home setups because you agree to it (consent), which you can withdraw at any time as described below. App usage statistics and health checks are used because we have a legitimate interest in keeping IraGrid working and improving it; they contain no name, contacts or location, and you can delete them at any time with <em>Delete my data</em>.</p>
 </section>
 
 <section>
@@ -82,10 +90,11 @@
   <ul>
     <li><strong>Other IraGrid users</strong> see only area results: whether an area has light, since when, and how many phones the reading is based on.</li>
     <li><strong>Our hosting provider, Supabase,</strong> stores the data for us. Its servers may be located outside Nigeria.</li>
+    <li><strong>YouTube (Google).</strong> Electricity Academy videos play inside IraGrid using YouTube's own video player. When you play a video, YouTube receives the information it normally gets from a video view and handles it under <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>. We don't send YouTube anything from IraGrid.</li>
     <li><strong>Area-level statistics</strong> (never individual records or locations) may be shared with, or sold to, organisations such as electricity companies, researchers, journalists or businesses, to help improve and monitor power supply.</li>
     <li>We may disclose information if required by law.</li>
   </ul>
-  <p>We do not sell your personal data, and we do not show ads.</p>
+  <p>We do not sell your personal data, and IraGrid does not show ads of its own.</p>
 </section>
 
 <section>
@@ -93,7 +102,9 @@
   <ul>
     <li><span class="pill">90 days</span> Your exact location on each charging event is deleted after 90 days. After that, the event only keeps its time, charger type, area and your answer.</li>
     <li>Area-level readings (for example "Adankolo had light from 4:10 pm to 9:30 pm") are kept as historical statistics.</li>
-    <li>Everything linked to your anonymous ID is deleted when you use <strong>Delete my data</strong>.</li>
+    <li>App usage statistics and health checks are kept until you use <strong>Delete my data</strong>.</li>
+    <li>Shared home setups are kept as anonymous statistics until you use <strong>Delete my data</strong>.</li>
+    <li>Everything linked to your anonymous ID, including usage statistics, health checks and shared home setups, is deleted when you use <strong>Delete my data</strong>.</li>
   </ul>
 </section>
 
@@ -102,7 +113,8 @@
   <ul>
     <li><strong>Pause:</strong> turn off <em>Help my area</em> in the Me tab and your phone stops being counted.</li>
     <li><strong>Questions:</strong> turn off <em>Power-source questions</em> in the Me tab.</li>
-    <li><strong>Delete:</strong> tap <em>Delete my data</em> in the Me tab to remove every charging record from your phone's ID.</li>
+    <li><strong>Share or not:</strong> home setups are only sent if you tap <em>Share</em>; tap <em>Not now</em> and nothing is sent.</li>
+    <li><strong>Delete:</strong> tap <em>Delete my data</em> in the Me tab to remove every charging record, usage statistic, health check and shared home setup from your phone's ID.</li>
     <li><strong>Permissions:</strong> you can turn off location or notifications for IraGrid in your phone's Settings at any time.</li>
     <li>Under Nigeria's Data Protection Act 2023 you can ask to access, correct or delete your data, or withdraw consent, by emailing us. You can also complain to the Nigeria Data Protection Commission (NDPC).</li>
   </ul>
@@ -111,7 +123,7 @@
 
 <section>
   <h2>Security</h2>
-  <p>Data is sent over encrypted connections (HTTPS). Database rules only let each phone add and delete its own records; other users can only read area-level results.</p>
+  <p>Data is sent over encrypted connections (HTTPS). Database rules only let each phone add and delete its own records; other users can only read area-level results. Usage statistics, health checks and shared home setups can only be added by the phone, never read back by anyone using the app.</p>
 </section>
 
 <section>
